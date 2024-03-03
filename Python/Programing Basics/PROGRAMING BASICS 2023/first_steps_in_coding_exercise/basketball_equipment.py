@@ -1,0 +1,10 @@
+year_tax_basketball = int(input())
+
+BASKETBALL_SHOES = year_tax_basketball - (year_tax_basketball * 0.4 )
+BASKETBALL_CLOTHES = BASKETBALL_SHOES - (BASKETBALL_SHOES * 0.2)
+BASKETBALL_BALL = BASKETBALL_CLOTHES / 4
+BASKETBALL_ACCESORIES = BASKETBALL_BALL / 5
+
+total_summary = year_tax_basketball + BASKETBALL_SHOES + BASKETBALL_CLOTHES + BASKETBALL_BALL + BASKETBALL_ACCESORIES
+
+print(total_summary)
