@@ -17,7 +17,7 @@ while command != "Complete":
         if "@" in string:
             username = string.split("@")[0]
         else:
-            username = (f"The email {string} doesn't contain the @ symbol.")
+            username = f"The email {string} doesn't contain the @ symbol."
         print(username)
     elif command.startswith("Replace"):
         char = command.split()[1]
