@@ -1,5 +1,8 @@
 from abc import ABC, abstractmethod
 
+"""
+This is updated version of previous file with matching SOLID principles
+"""
 
 class Shape(ABC):
 
