@@ -8,7 +8,11 @@ class reverse_iter:
     def __iter__(self):
         return reversed(self.iterable)
 
-    # def __next__(self):
+    """
+    This is the second option that you can solve this task.
+    """
+    
+    # def __next__(self): 
     #     if self.start_index > self.end_index:
     #      self.start_index -= 1
     #      return self.iterable[self.start_index]
