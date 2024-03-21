@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
 
-
+"""
+This is task provided to calculate the fuel consumpton of car and truck.
+"""
 class Vehicle(ABC):
 
     def __init__(self, fuel_quantity: int, fuel_consumption: int):
