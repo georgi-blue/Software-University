@@ -1,5 +1,7 @@
 import copy
-
+"""
+This is updated version of previous file with matching SOLID principles
+"""
 
 class Person:
 
