@@ -1,3 +1,6 @@
+"""
+This is decorator which is used to give info about the executing time of the given func.
+"""
 from time import time
 
 def exec_time(func):
