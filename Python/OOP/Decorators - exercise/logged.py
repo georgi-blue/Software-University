@@ -1,3 +1,7 @@
+"""
+This is a decorator that can be used to give you info about calling a function and her result.
+"""
+
 def logged(func):
     def wrapper(*args, **kwargs):
         return (f"you called {func.__name__}{args}\n"
