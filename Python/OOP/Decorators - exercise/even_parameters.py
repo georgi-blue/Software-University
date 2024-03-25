@@ -1,3 +1,6 @@
+"""
+This decorator is created to execute the func only if the arguments are even numbers.
+"""
 def even_parameters(func):
     def wrapper(*args, **kwargs):
         for arg in args:
