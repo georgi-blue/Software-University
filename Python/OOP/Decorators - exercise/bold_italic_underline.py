@@ -1,3 +1,6 @@
+"""
+These decorators are providing strings to the result of the func.
+"""
 def make_underline(func):
     def wrapper(*args, **kwargs):
         return f"<u>{func(*args, **kwargs)}</u>"
