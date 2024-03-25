@@ -1,4 +1,6 @@
-
+"""
+This decorator is used to store the Fibonacci numbers in a dictionary that is created by himself.
+"""
 def cache(func):
     def wrapper(num):
         if not wrapper.log.get(num):
@@ -10,7 +12,6 @@ def cache(func):
     return wrapper
 
 @cache
-
 def fibonacci(n):
 
     if n < 2:
