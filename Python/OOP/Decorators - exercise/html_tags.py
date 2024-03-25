@@ -1,3 +1,7 @@
+"""
+This is a decorator that is used to add it's argument to the func result.
+"""
+
 def tags(html_tag):
     def decorator(func):
         def wrapper(*args, **kwargs):
