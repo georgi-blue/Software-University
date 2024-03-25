@@ -1,5 +1,5 @@
 """
-This decorator is used to check the argument of the func is instance of the give decorator argument.
+This decorator is used to check the argument of the func is instance of the given decorator argument.
 """
 def type_check(wanted_type):
     def decorator(func):
