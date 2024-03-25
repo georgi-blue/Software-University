@@ -1,3 +1,6 @@
+"""
+This class decorator is creating new file with string in it.
+"""
 class store_results:
     _LOGFILE = 'results.txt'
     def __init__(self, func):
