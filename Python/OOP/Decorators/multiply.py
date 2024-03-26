@@ -1,3 +1,6 @@
+"""
+This decorator returns the multiplication of result of the func and the given decorator's argument.
+"""
 def multiply(times):
 
     def decorator(function):
