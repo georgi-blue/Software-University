@@ -1,3 +1,6 @@
+"""
+This decorator is returning list of even integers found in the given iterable argument.
+"""
 def even_numbers(function):
 
     def wrapper(numbers):
