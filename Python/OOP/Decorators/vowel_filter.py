@@ -1,3 +1,6 @@
+"""
+This decorator is returning list with only vowel letters.
+"""
 def vowel_filter(function):
 
     def wrapper():
