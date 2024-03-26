@@ -1,3 +1,6 @@
+"""
+This decorator is adding 1 to integers passed in func.
+"""
 def number_increment(numbers):
 
     def increase():
